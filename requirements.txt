@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+mplfinance
+TA-Lib
+python-binance
+requests

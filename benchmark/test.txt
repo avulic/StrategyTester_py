@@ -1,0 +1,140 @@
+Start
+4h
+-----------------------------------------------
+Totla 10s
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  2417836    0.811    0.000    1.420    0.000 {built-in method builtins.isinstance}
+   850297    0.445    0.000    0.603    0.000 generic.py:10(_check)
+      700    0.341    0.000    0.341    0.000 {built-in method io.open_code}
+1386954/1383143    0.313    0.000    0.341    0.000 {built-in method builtins.getattr}
+    23646    0.310    0.000    0.429    0.000 numerictypes.py:578(_can_coerce_all)
+918243/751035    0.287    0.000    0.395    0.000 {built-in method builtins.len}
+        1    0.283    0.283   10.420   10.420 broker.py:304(Start)
+21571/21567    0.283    0.000    3.505    0.000 series.py:183(__init__)
+     3192    0.255    0.000    0.255    0.000 {built-in method nt.stat}
+    11821    0.205    0.000    1.657    0.000 managers.py:886(fast_xs)
+   143097    0.191    0.000    0.484    0.000 common.py:1565(is_extension_array_dtype)
+    30353    0.184    0.000    0.358    0.000 frame.py:2767(__getitem__)
+   146478    0.182    0.000    0.351    0.000 common.py:1708(_is_dtype_type)
+   143123    0.171    0.000    0.240    0.000 dtypes.py:75(find)
+   172188    0.169    0.000    0.347    0.000 {pandas._libs.lib.is_list_like}
+73856/66045    0.157    0.000    0.183    0.000 {built-in method numpy.array}
+17499/16486    0.155    0.000    0.385    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+    18720    0.146    0.000    1.411    0.000 construction.py:388(sanitize_array)
+    60697    0.140    0.000    0.285    0.000 generic.py:5276(__setattr__)
+    18747    0.129    0.000    0.791    0.000 blocks.py:2981(get_block_type)
+      698    0.118    0.000    0.118    0.000 {built-in method marshal.loads}
+    14659    0.117    0.000    4.474    0.000 frame.py:2722(_ixs)
+    18710    0.115    0.000    0.206    0.000 cast.py:1088(maybe_castable)
+   113991    0.113    0.000    0.507    0.000 base.py:247(is_dtype)
+    15680    0.111    0.000    0.516    0.000 generic.py:3415(xs)
+    11821    0.110    0.000    1.062    0.000 cast.py:1342(find_common_type)
+    12772    0.108    0.000    0.119    0.000 blocks.py:2148(iget)
+   515132    0.103    0.000    0.106    0.000 {built-in method builtins.issubclass}
+     6855    0.101    0.000    0.564    0.000 datetimelike.py:61(wrapper)
+     1920    0.101    0.000    0.141    0.000 rrule.py:774(_iter)
+   180473    0.100    0.000    0.103    0.000 {built-in method _abc._abc_instancecheck}
+    15285    0.098    0.000    0.098    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    16624    0.096    0.000    2.347    0.000 indexing.py:1902(_getitem_axis)
+    76/75    0.095    0.001    0.099    0.001 {built-in method _imp.create_dynamic}
+    71155    0.094    0.000    0.125    0.000 generic.py:409(_get_axis_name)
+    11833    0.093    0.000    0.323    0.000 cast.py:1209(maybe_cast_to_datetime)
+    25370    0.091    0.000    0.105    0.000 common.py:85(maybe_box_datetimelike)
+    18713    0.090    0.000    0.833    0.000 construction.py:506(_try_cast)
+	...
+
+Start3
+4h
+-------------------------------------------------------------------------------------------
+Totla	9
+ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  1915633    0.802    0.000    1.379    0.000 {built-in method builtins.isinstance}
+   708494    0.425    0.000    0.570    0.000 generic.py:10(_check)
+      700    0.350    0.000    0.350    0.000 {built-in method io.open_code}
+     5911    0.322    0.000   10.035    0.002 broker.py:277(CalculateRow)
+1162459/1158648    0.301    0.000    0.328    0.000 {built-in method builtins.getattr}
+     3193    0.294    0.000    0.294    0.000 {built-in method nt.stat}
+687722/550077    0.263    0.000    0.366    0.000 {built-in method builtins.len}
+15660/15656    0.240    0.000    2.861    0.000 series.py:183(__init__)
+    30353    0.230    0.000    0.415    0.000 frame.py:2767(__getitem__)
+    11826    0.196    0.000    0.282    0.000 numerictypes.py:578(_can_coerce_all)
+   142614    0.188    0.000    0.373    0.000 {pandas._libs.lib.is_list_like}
+17502/16489    0.187    0.000    0.484    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+67955/60144    0.174    0.000    0.204    0.000 {built-in method numpy.array}
+   101747    0.173    0.000    0.433    0.000 common.py:1565(is_extension_array_dtype)
+   101776    0.148    0.000    0.210    0.000 dtypes.py:75(find)
+    48869    0.139    0.000    0.274    0.000 generic.py:5276(__setattr__)
+      700    0.138    0.000    0.138    0.000 {built-in method marshal.loads}
+    87407    0.134    0.000    0.260    0.000 common.py:1708(_is_dtype_type)
+    15680    0.126    0.000    0.582    0.000 generic.py:3415(xs)
+    12814    0.125    0.000    1.039    0.000 construction.py:388(sanitize_array)
+     5910    0.122    0.000    1.085    0.000 managers.py:886(fast_xs)
+     6855    0.121    0.000    0.689    0.000 datetimelike.py:61(wrapper)
+   150899    0.119    0.000    0.122    0.000 {built-in method _abc._abc_instancecheck}
+    15287    0.116    0.000    0.116    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     1920    0.113    0.000    0.154    0.000 rrule.py:774(_iter)
+    12841    0.112    0.000    0.670    0.000 blocks.py:2981(get_block_type)
+     1889    0.110    0.000    0.160    0.000 _strptime.py:309(_strptime)
+    12804    0.105    0.000    0.190    0.000 cast.py:1088(maybe_castable)
+    76/75    0.100    0.001    0.104    0.001 {built-in method _imp.create_dynamic}
+    16624    0.098    0.000    2.669    0.000 indexing.py:1902(_getitem_axis)
+    84464    0.097    0.000    0.438    0.000 base.py:247(is_dtype)
+    18514    0.095    0.000    1.011    0.000 blocks.py:3027(make_block)
+     6860    0.094    0.000    0.107    0.000 blocks.py:2148(iget)
+    21362    0.091    0.000    0.185    0.000 _dtype.py:333(_name_get)
+	...
+
+
+Start4
+4h
+------------------------------------------------------------------------------------
+Total 3
+ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   984308    0.384    0.000    0.610    0.000 {built-in method builtins.isinstance}
+      699    0.355    0.001    0.355    0.001 {built-in method io.open_code}
+     3190    0.308    0.000    0.308    0.000 {built-in method nt.stat}
+537122/527640    0.167    0.000    0.213    0.000 {built-in method builtins.getattr}
+    17565    0.161    0.000    1.397    0.000 generic.py:3415(xs)
+   272786    0.156    0.000    0.212    0.000 generic.py:10(_check)
+      699    0.141    0.000    0.141    0.000 {built-in method marshal.loads}
+     1920    0.140    0.000    0.195    0.000 rrule.py:774(_iter)
+     5656    0.133    0.000    0.133    0.000 broker.py:165(CalcualteTimeDelta)
+    19457    0.128    0.000    3.638    0.000 indexing.py:1902(_getitem_axis)
+320447/263864    0.127    0.000    0.163    0.000 {built-in method builtins.len}
+    19477    0.124    0.000    0.453    0.000 frame.py:2767(__getitem__)
+  904/263    0.115    0.000    0.177    0.001 sre_parse.py:493(_parse)
+26441/26427    0.104    0.000    0.105    0.000 {built-in method numpy.array}
+    76/75    0.101    0.001    0.105    0.001 {built-in method _imp.create_dynamic}
+22185/21606    0.098    0.000    0.123    0.000 backend_pdf.py:134(pdfRepr)
+    21341    0.094    0.000    0.094    0.000 {method 'get_loc' of 'pandas._libs.index.DatetimeEngine' objects}
+    46857    0.094    0.000    0.187    0.000 common.py:1708(_is_dtype_type)
+     9762    0.094    0.000    0.094    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    97506    0.092    0.000    0.194    0.000 {pandas._libs.lib.is_list_like}
+32198/947    0.090    0.000    0.214    0.000 copy.py:128(deepcopy)
+
+Strat2
+4h
+----------------------------------------------------------------------------------------
+Total 3
+ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      700    0.332    0.000    0.332    0.000 {built-in method io.open_code}
+   997709    0.326    0.000    0.536    0.000 {built-in method builtins.isinstance}
+     3193    0.249    0.000    0.249    0.000 {built-in method nt.stat}
+548552/539070    0.154    0.000    0.193    0.000 {built-in method builtins.getattr}
+   280380    0.146    0.000    0.204    0.000 generic.py:10(_check)
+    17565    0.143    0.000    1.149    0.000 generic.py:3415(xs)
+     1920    0.121    0.000    0.167    0.000 rrule.py:774(_iter)
+      700    0.118    0.000    0.118    0.000 {built-in method marshal.loads}
+    19457    0.112    0.000    3.024    0.000 indexing.py:1902(_getitem_axis)
+    19477    0.107    0.000    0.370    0.000 frame.py:2767(__getitem__)
+     5656    0.104    0.000    0.104    0.000 broker.py:165(CalcualteTimeDelta)
+327981/267636    0.098    0.000    0.137    0.000 {built-in method builtins.len}
+     9764    0.092    0.000    0.092    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+30227/30213    0.092    0.000    0.093    0.000 {built-in method numpy.array}
+
+
+Strat6
+4h
+---------------------------------------------------------------------------------------------
+Totla 0.99
