@@ -109,6 +109,7 @@ celerybeat.pid
 .env-crypto
 .venv
 env/
+env-crypto/
 venv/
 ENV/
 env.bak/
